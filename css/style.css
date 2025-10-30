@@ -1,0 +1,38 @@
+@font-face {
+  font-display: swap; 
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/dm-sans-v17-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/dm-sans-v17-latin-700.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/mulish-v18-latin-regular.woff2') format('woff2'); 
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+    background-color: #FFFFFF;
+}
+
+p {
+    font-family: "Mulish", sans-serif;
+}
+
+.containers {
+    max-width: 1146px;
+    margin: 0 auto;
+    padding: 0 14px;
+}
